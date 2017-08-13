@@ -4,8 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		PrintHello print = new PrintHello();
+		Calculate math = new Calculate();
 		print.display();
-
+		math.add(1,3);
 	}
 
 }
